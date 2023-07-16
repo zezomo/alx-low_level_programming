@@ -1,11 +1,13 @@
 #include <stdio.h>
+
 /**
- * main entry point
- * 
- * description function will be fu
+ * main - Entry point
  *
- * return value will always be 0
+ * Description: A C program that prints with put function
+ *
+ * Return: Always 0 (success)
 */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
