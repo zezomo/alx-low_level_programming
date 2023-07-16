@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main entry point 
+ * main entry point
+ * 
  * description function will be fu
- * return value will always be zero
+ *
+ * return value will always be 0
 */
 int main(void)
 {
