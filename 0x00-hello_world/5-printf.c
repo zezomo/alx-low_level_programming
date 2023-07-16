@@ -1,5 +1,9 @@
 #include <stdio.h>
-/***/
+/**
+ * Descrubtion: using printf function
+ *
+ * Retern: Always 0
+*/
 
 int main(void)
 {
