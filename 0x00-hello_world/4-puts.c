@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * main_entry
+ * main entry point 
+ * description function will be fu
+ * return value will always be zero
 */
 int main(void)
 {
