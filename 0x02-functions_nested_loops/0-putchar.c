@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char arr[] = "_putchar"
+	char arr[] = "_putchar";
 	int ch;
 
 	for (ch = 0; ch < 8; ch++)
