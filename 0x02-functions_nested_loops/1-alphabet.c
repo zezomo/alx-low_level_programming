@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Descrubtion: using Size function
+ * Descrubtion: using Size function description found for function print_alphabet
  *
  * Return: Always 0
 */
