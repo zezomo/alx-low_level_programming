@@ -3,7 +3,7 @@
 /**
  * print_last_digit - functio nswd d wdw d gfwf wdf wdf
  *
- * @n : efde  f f efg fg qg 
+ * @n : efde  f f efg fg qg
  *
  * Return: Always 0.
  */
