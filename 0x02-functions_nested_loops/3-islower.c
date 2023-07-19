@@ -3,7 +3,9 @@
 /**
  * main - check the code.
  *
- * islower - fn
+ * _islower - fn
+ *
+ * @c 
  *
  * Return: Always 0.
  */
