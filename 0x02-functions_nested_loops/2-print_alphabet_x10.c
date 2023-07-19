@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- *
- * print_alphabet_x10 - fu to repet a to z ten time
- *
+ * print_alphabet_x10 - function to repet a to z ten time
 */
 
 
