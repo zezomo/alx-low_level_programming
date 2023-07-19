@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * Descrubtion: using Size function description found for function print_alphabet
- *
- * Return: Always 0
+ * print_alphabet - function to print from a to z
 */
 
 void print_alphabet(void)
