@@ -9,7 +9,7 @@
 int main(void)
 {
 	int c;
-	unsigned long f1, f2, sum;
+	unsigned long f1 = 1, f2 = 0, sum;
 
 	for (c = 0; c < 50; c++)
 	{
