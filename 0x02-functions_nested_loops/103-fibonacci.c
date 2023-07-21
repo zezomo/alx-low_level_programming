@@ -17,7 +17,7 @@ int main(void)
 		if (sum > 4000000)
 			break;
 
-		if (sum % 2 == 2)
+		if (sum % 2 == 0)
 			sum2 += sum;
 		f1 = f2;
 		f2 = sum;
