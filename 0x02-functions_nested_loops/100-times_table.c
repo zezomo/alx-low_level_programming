@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_times_table - check the code.ds aw wd w dadwdawdwda
+ *
+ * @n :WdfWDW DWA DWD WAWDWDADW DA d
  *
  * Return: Always 0.
  */
@@ -31,34 +33,12 @@ void print_times_table(int n)
 				if (cell >= 100)
 					_putchar((cell / 100) + 48);
 					_putchar((cell / 10) + 48);
-				if else (cell <= 99 && cell >= 10)
+				else if (cell <= 99 && cell >= 10)
 					_putchar((cell / 10) + 48);
 
 			_putchar((cell % 10) + 48);
 			}
 			_putchar('\n');
+		}
 	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	}	
-
 }
