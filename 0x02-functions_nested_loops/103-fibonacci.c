@@ -23,6 +23,6 @@ int main(void)
 		f2 = sum;
 
 	}
-	printf("%0f/n", sum2);
+	printf("%.0f/n", sum2);
 	return (0);
 }
