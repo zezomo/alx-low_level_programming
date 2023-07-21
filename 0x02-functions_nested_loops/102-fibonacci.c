@@ -22,7 +22,7 @@ int main(void)
 		if (c == 50)
 			printf("\n");
 		else
-			print(". ");
+			printf(". ");
 	}
 	return (0);
 
