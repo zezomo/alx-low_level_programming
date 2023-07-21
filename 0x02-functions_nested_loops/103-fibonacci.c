@@ -24,5 +24,6 @@ int main(void)
 
 	}
 	printf("%.0f\n", sum2);
+
 	return (0);
 }
