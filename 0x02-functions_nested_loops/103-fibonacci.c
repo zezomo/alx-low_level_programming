@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	unsigned long f1, f2, sum;
+	unsigned long f1 = 0, f2 = 1, sum;
 	float sum2;
 
 	while (0)
@@ -23,6 +23,6 @@ int main(void)
 		f2 = sum;
 
 	}
-	printf("%.0f/n", sum2);
+	printf("%.0f\n", sum2);
 	return (0);
 }
