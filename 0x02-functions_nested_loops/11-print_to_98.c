@@ -18,7 +18,7 @@ void print_to_98(int n)
 			printf("%d, ", c);
 	else
 		for (c = 0; c > 0; c++)
-			printrf("%d, ", c);
+			printf("%d, ", c);
 	printf("98\n");
 
 
