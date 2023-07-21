@@ -2,6 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+=======
 /**
  * main - entry point
  *
@@ -9,6 +18,7 @@
  *
  * Return: Always 0
 */
+>>>>>>> 2b59944882c29e07691f47cf4e8a93a3fe551de2
 
 
 
@@ -22,7 +32,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 2b59944882c29e07691f47cf4e8a93a3fe551de2
 	return (0);
 }
