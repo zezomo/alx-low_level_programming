@@ -33,7 +33,7 @@ void print_times_table(int n)
 				if (cell >= 100)
 				{
 					_putchar((cell / 100) + 48);
-					_putchar((cell / 10) + 48);
+					_putchar((cell / 10) % 10 + 48);
 				}else if (cell <= 99 && cell >= 10)
 					_putchar((cell / 10) + 48);
 
