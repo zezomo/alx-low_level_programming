@@ -19,7 +19,6 @@ int main(void)
 
 		if (sum % 2 == 2)
 			sum2 += sum;
-		
 		f1 = f2;
 		f2 = sum;
 
