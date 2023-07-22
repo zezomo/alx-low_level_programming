@@ -2,6 +2,8 @@
 
 /**
 * main - tests function that prints if integer is positive or negative
+* positive_or_negative :dfw rfa wdfw amfafgn wonffnwnf  
+* @i df af nwwd adad faw fwa ff f afwd wa fa f
 * Return: 0
 */
 
