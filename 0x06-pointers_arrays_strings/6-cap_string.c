@@ -5,7 +5,7 @@
  * cap_string - check the codefawdf fa fawfdw fa fwf f fwaffawf
  *
  * @c : da dw daf fg faw fa fa fwf afwfafawff adf
- * 
+ *
  * Return: Always 0.
  */
 
@@ -19,7 +19,7 @@ int del(char c)
 	int i;
 	char dela[] = " \t\n,.!?\"(){}";
 
-	for (i =0; i < 12 ; i++)
+	for (i = 0; i < 12 ; i++)
 		if (c == dela[i])
 			return (1);
 	return (0);
@@ -40,7 +40,7 @@ char *cap_string(char *s)
 			*s -= 32;
 			f = 0;
 		}
-		else 
+		else
 			f = 0;
 		s++;
 	}
