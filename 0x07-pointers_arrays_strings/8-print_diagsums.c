@@ -13,13 +13,13 @@
 
 void print_diagsums(int *a, int size)
 {
-	int k;
-	int n;
+	int i;
+	int j;
 
-	for (k = 0; k < 8; k++)
+	for (i = 0; i < 8; i++)
 	{
-		for (n = 0; n < 8; n++)
-			_putchar(a[k][n]);
+		for (j = 0; j < 8; j++)
+			_putchar(a[i][j]);
 		_putchar('\n');
 	}
 
