@@ -13,17 +13,17 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-		int i;
+	int i;
 
-		while (*cc)
+	while (*cc)
+	{
+		for (i = 0; accept[i]; i++)
 		{
-			for (i = 0; accept[i]; i++)
-			{
 			if (*cc == accept[i])
 			return (cc);
-			}
-		cc++;
 		}
+	cc++;
+	}
 
 	return ('\0');
 }
