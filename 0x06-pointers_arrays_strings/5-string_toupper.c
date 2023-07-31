@@ -17,7 +17,7 @@ char *string_toupper(char *co)
 	{
 		if (co[i] >= 97 && co[i] <= 122)
 		{
-			co[i] = co[i] = 32;
+			co[i] = co[i] - 32;
 		}
 	}
 
