@@ -2,11 +2,7 @@
 #include <stdio.h>
 
 /**
- * cap_string - check the codefawdf fa fawfdw fa fwf f fwaffawf
- *
- * low - aefwfa fgaefgwafmafngaknfn fkamnwf;amnfawmnfmafam
- *
- * del - afawfa fga g awe ghae ga gaw g ga gaw aga gff
+ * low - aefwfa fgae fmafaknfn fkamn faf fa f gagnfmg a gfawafad
  *
  * @c : da dw daf fg faw fa fa fwf afwfafawff adf
  *
@@ -18,6 +14,13 @@ int low(char c)
 	return (c >= 97 && c <= 122);
 
 }
+/**
+ * del - check the codefawdf fa fawfdw fa fwf f fwaffawf
+ *
+ * @c : da dw daf fg faw faf adf
+ *
+ * Return: Always 0.
+ */
 int del(char c)
 {
 	int i;
@@ -29,7 +32,13 @@ int del(char c)
 	return (0);
 
 }
-
+/**
+ * cap_string - check the codefawdf fa fawfdw fa fwf f fwaffawf
+ *
+ * @s : da dw daf fg faw faf adf
+ *
+ * Return: Always 0.
+ */
 char *cap_string(char *s)
 {
 	char *p = s;
