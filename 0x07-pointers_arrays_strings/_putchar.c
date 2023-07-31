@@ -11,5 +11,5 @@
 
 int _putchar(char s)
 {
-	return (write(1, &, 1));
+	return (write(1, &c, 1));
 }
