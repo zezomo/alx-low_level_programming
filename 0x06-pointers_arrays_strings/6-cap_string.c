@@ -4,6 +4,10 @@
 /**
  * cap_string - check the codefawdf fa fawfdw fa fwf f fwaffawf
  *
+ * low - aefwfa fgaefgwafmafngaknfn fkamnwf;amnfawmnfmafam
+ *
+ * del - afawfa fga g awe ghae ga gaw g ga gaw aga gff
+ *
  * @c : da dw daf fg faw fa fa fwf afwfafawff adf
  *
  * Return: Always 0.
