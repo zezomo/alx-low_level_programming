@@ -44,5 +44,5 @@ char *cap_string(char *s)
 			f = 0;
 		s++;
 	}
-	return (p)
+	return (p);
 }
