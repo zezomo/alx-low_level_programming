@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
-git commit -m "pushed 3"
+git commit -m "pushed for life"
 git push
 
