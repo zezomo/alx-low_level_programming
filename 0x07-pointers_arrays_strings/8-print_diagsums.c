@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_chessboard - check the codefawdf fa fawfdw fa fwf f fwaffawf
+ * print_diagsums - check the codefawdf fa fawfdw fa fwf f fwaffawf
  *
  * @a : da dw daf fg faw faf adffawdfawdf faw fwfaw gaega f
  *
