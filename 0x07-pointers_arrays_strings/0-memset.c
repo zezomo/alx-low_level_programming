@@ -8,7 +8,7 @@
  *
  * @b :d d faw g agh fgweafadfas fw agagw fawd adf afwf af
  *
- * @n dafgawd afaw g gafawdawdada dagaw ga gafgwa rfafawfa
+ * @n : dsda  dafgawd afaw g gafawda daagaw ga gafgwa rfafawfa
  *
  * Return: Always 0.
  */
@@ -17,7 +17,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0; n > 0; i++, n++)
+	for (i = 0; n > 0; i++, n--)
 	{
 		s[i] = b;
 	}
