@@ -6,7 +6,7 @@
  *
  * @s : da dw daf fg faw faf adffawdfawdf faw fwfaw gaega f
  *
- * @cc : d faw g agh fgweafadfas fw agagw fawd adf afwf af
+ * @c : d faw g agh fgweafadfas fw agagw fawd adf afwf af
  *
  * Return: Always 0.
  */
