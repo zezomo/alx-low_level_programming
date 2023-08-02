@@ -9,17 +9,28 @@
  * Return: Always 0.
  */
 
-int v = 1;
+int root(int n, int v);
 
 int _sqrt_recursion(int n)
 {
-	if (v * v == n)
-		return (v);
-	else if (v * v < n)
-	{
-		v = v + 1;
-		return (_sqrt_recursion(n));
-	} else
-		return (-1);
+
+	return (root(n, 1);
 }
 
+/**
+ * root - check the codefawdf fa fawfdw fa fwf f fwaffawf
+ *
+ * @v : da dw daf fg faw faf adffawdfawdf faw fwfaw gaega f
+ *
+ * Return: Always 0.
+ */
+int root(int n, int v)
+{
+        if (v * v == n)
+                return (v);
+        else if (v * v < n)
+        {
+                return (root(n, v + 1));
+        } else
+                return (-1);
+}
