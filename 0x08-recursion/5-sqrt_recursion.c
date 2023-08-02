@@ -9,10 +9,10 @@
  * Return: Always 0.
  */
 
+int v = 1;
+
 int _sqrt_recursion(int n)
 {
-	int v = 1;
-
 	if (v * v == n)
 		return (v);
 	else if (v * v < n)
