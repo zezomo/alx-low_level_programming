@@ -33,6 +33,7 @@ int root(int n, int v)
 	else if (v * v < n)
 	{
 	return (root(n, v + 1));
-	} else
+	}
+	else
 		return (-1);
 }
