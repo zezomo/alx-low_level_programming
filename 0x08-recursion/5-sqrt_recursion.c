@@ -17,9 +17,9 @@ int _sqrt_recursion(int n)
 		return (v);
 	else if (v * v < n)
 	{
-		v++;
+		v = v + 1;
 		return (_sqrt_recursion(n));
-	}else
+	} else
 		return (-1);
 }
 
