@@ -34,5 +34,5 @@ int prim(int n, int v)
 	return (0);
 	}
 	else
-		return (root(n, v + 1));
+		return (prim(n, v + 1));
 }
