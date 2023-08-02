@@ -22,15 +22,17 @@ int _sqrt_recursion(int n)
  *
  * @v : da dw daf fg faw faf adffawdfawdf faw fwfaw gaega f
  *
+ * @n : afefafa f af agf awf faw dfaffwafawf  faw faw fw awf
+ *
  * Return: Always 0.
  */
 int root(int n, int v)
 {
-        if (v * v == n)
-                return (v);
-        else if (v * v < n)
-        {
-                return (root(n, v + 1));
-        } else
-                return (-1);
+	if (v * v == n)
+		return (v);
+	else if (v * v < n)
+	{
+	return (root(n, v + 1));
+	} else
+		return (-1);
 }
