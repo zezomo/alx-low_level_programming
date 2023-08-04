@@ -10,7 +10,7 @@
  * Return: Always 0.
  */
 
-int main(int argc, char (void(void((*argv[])
+int main(int argc, char (void)*argv[])
 {
 	printf("%d\n", argc - 1);
 	return (0);
