@@ -25,7 +25,9 @@ int main(int argc, char *argv[])
                                 cants += monay / centss[c];
                                 monay = monay % centss[c];
                                 if (monay % centss[c] == 0)
+				{
                                         break;
+				}
 			}
 		}
 		printf("%d\n", cants);
