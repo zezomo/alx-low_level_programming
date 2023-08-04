@@ -11,7 +11,7 @@
  * Return: Always 0.
  */
 
-int main(int argc, char *argv[](void))
+int main(int argc, char (void)*argv[])
 {
 	printf("%d\n", argc - 1);
 	return (0);
