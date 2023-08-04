@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
 		for (c = 0; c < 5; c++)
 		{
-			if(monay >+ centss[c])
+			if(monay >= centss[c])
 			{
                                 cants += monay / centss[c];
                                 monay = monay % centss[c];
