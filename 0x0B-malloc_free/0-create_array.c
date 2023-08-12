@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * create_array - check the codefawdf fa fawfdw fa fwf f fwaffawf
