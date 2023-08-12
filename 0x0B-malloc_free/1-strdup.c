@@ -25,11 +25,13 @@ char *_strdup(char *str)
 	ch = malloc(cell * sizeof(*str) + 1);
 
 	if (ch == 0)
+	{
 		return (NULL);
+	}
 	else
 	{
 		for (i = 0; i < cell; i++)
-			 ch[i] = str[i];
+			ch[i] = str[i];
 	}
 	return (ch);
 }
