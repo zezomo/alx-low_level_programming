@@ -47,16 +47,16 @@ char *str_concat(char *s1, char *s2)
 		return (0);
 
 	for (i = 0; i <= len1 + len2; i++)
-	}
+	{
 		if (i < len1)
-		{
-			cha[i] = s1[i];
-		}
-		else
-		{
-			cha[i] - s1[i];
-		}
+                {
+                        cha[i] = s1[i];
+                }
+                else
+                {
+                        cha[i] - s1[i];
+                }
 	}
 	cha[i} = '\0';
-	return (cha);
+        return (cha);
 }
