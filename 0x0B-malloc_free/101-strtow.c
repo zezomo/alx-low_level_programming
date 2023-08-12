@@ -17,7 +17,7 @@ int count(char *ss)
 
 	for (cc = 0; ss[cc] != '\0'; cc++)
 	{
-		if (ss[c] == ' ')
+		if (ss[cc] == ' ')
 			fl = 0;
 		else if (fl == 0)
 		{
