@@ -49,14 +49,14 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; i <= len1 + len2; i++)
 	{
 		if (i < len1)
-                {
-                        cha[i] = s1[i];
-                }
-                else
-                {
-                        cha[i] = s2[i - len1];
-                }
+		{
+			cha[i] = s1[i];
+		}
+		else
+		{
+			cha[i] = s2[i - len1];
+		}
 	}
 	cha[i] = '\0';
-        return (cha);
+	return (cha);
 }
