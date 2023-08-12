@@ -41,7 +41,7 @@ char *argstostr(int ac, char **av)
 	for (; i < ac; c++, i++)
 		c += count(av[i]);
 	ccc = malloc(sizeof(char) * c + 1);
-	if (s == 0)
+	if (ccc == 0)
 		return (NULL);
 
 	for (i = 0; i < ac; i++)
