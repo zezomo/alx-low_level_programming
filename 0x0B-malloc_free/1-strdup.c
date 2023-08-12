@@ -10,7 +10,7 @@
  * Return: Always 0.
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int i, cell;
 
