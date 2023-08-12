@@ -13,6 +13,7 @@
 char *_strdup(char *str)
 {
 	int i, cell;
+	char *ch;
 
 
 	if (str == NULL)
@@ -21,7 +22,7 @@ char *_strdup(char *str)
 	for (cell = 0; str[cell] != '\0'; cell++)
 		;
 
-	char *ch = malloc(cell * sizeof(*str) + 1);
+	ch = malloc(cell * sizeof(*str) + 1);
 
 	if (ch == 0)
 		return (NULL);
