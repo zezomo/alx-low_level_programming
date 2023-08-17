@@ -4,11 +4,13 @@
 /**
  * sum_them_all - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
  * 
- * @n: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
+ * @separator: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
+ *
+ * @n: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef fn
  *
  * Return: number of words
  */
-int sum_them_all(const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
         va_list nu;
         unsigned int i;
