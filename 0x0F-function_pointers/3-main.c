@@ -4,7 +4,9 @@
 /**
  * main - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
  *
- * @s: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
+ * @ca: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
+ *
+ * @cu: afawf awfawfawfg da ga wfawedaw dw fga wfgwa edawrf fawf awfa
  *
  * Return: number of words
  */
