@@ -20,7 +20,7 @@ int main(int ca, char **cu)
 	x = atoi(cu[1]);
 	y = atoi(cu[3]);
 
-	fun = get_op_function(cu[2]);
+	fun = get_op_func(cu[2]);
 
 	if (!fun)
 		printf("Error\n"), exit(99);
