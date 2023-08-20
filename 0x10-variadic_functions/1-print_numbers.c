@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include "main.h"
 #include <stdarg.h>
+#include <stdio.h>
+
 
 /**
  * print_numbers - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
