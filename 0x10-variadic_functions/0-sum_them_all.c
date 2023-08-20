@@ -11,5 +11,17 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+	int i = n, c = 0;
 
+	va_list arg;
+
+	if (!n)
+		return (0);
+	va_start(arg, n);
+
+	while (i--)
+		c += va_arg(arg, int);
+	va_end(arg);
+	return (c);
 }
+
