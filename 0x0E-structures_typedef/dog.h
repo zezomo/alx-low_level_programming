@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * STRUCT - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ * struct dog - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
  *
  * @name: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
  *
