@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include "main.h"
 #include "dog.h"
 #include <stdarg.h>
 #include <stdio.h>
