@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * sum_them_all - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ * print_numbers - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
  * 
  * @separator: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
  *
