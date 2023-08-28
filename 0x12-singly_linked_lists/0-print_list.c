@@ -1,4 +1,5 @@
 #include "list.h"
+
 /**
  * _strlen - calulate the length of string
  * Description: it calulate the string passed to _puts
@@ -14,9 +15,6 @@ int _strlen(char *s)
 
 	return (length);
 }
-
-#include "main.h"
-
 /**
  * print_list - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
  *
