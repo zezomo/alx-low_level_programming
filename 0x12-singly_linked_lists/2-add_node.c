@@ -1,6 +1,23 @@
 #include "lists.h"
 
 /**
+ * _strlen - calulate the length of string
+ * Description: it calulate the string passed to _puts
+ * @s: '*s' is a pointer
+ * Return: length of string
+ */
+int _strlen(char *s)
+{
+	int length = 0;
+
+	while (s[length])
+	{
+		length++;
+	}
+	return (length);
+}
+
+/**
  * add_node - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
  *
  * @head: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
@@ -23,7 +40,7 @@ list_t *add_node(list_t **head, const char *str)
 			free(newhead);
 			return (NULL);
 		}
-		newhead->len = len;
+		newhead->len = _strlen(newhead->str);
 	}
 	newhead->next = *head;
 	*head = newhead;
