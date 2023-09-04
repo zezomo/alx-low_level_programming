@@ -9,7 +9,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	int b = sizeof(n) * 8, printed;
+	int b = sizeof(n) * 8, printed = 0;
 
 	while (b)
 	{
