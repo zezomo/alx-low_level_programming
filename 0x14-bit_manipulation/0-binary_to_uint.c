@@ -3,17 +3,17 @@
 /**
  * binary_to_uint - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
  *
- * @h: f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
+ * @b:f af f agaefgafadfafaf f f af f fwefaf f aef faefwef f aef f
  *
  * Return: number of words
  */
-size_t binary_to_uint(const list_t *h)
+unsigned int binary_to_uint(const char *b)
 {
-	if (b == NULL)
-		return (0);
-
 	unsigned int result = 0;
 	int i = 0;
+	
+	if (b == NULL)
+		return 0;
 
 	while (b[i] != '\0')
 	{
