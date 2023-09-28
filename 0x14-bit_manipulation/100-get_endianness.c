@@ -10,6 +10,6 @@ int get_endianness(void)
 	unsigned int num = 1;
 	unsigned char *byte_ptr = (unsigned char *)&num;
 
-	return (int)*byte_ptr;
+	return ((int)*byte_ptr);
 }
 
