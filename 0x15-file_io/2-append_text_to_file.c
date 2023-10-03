@@ -11,9 +11,9 @@
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
+	int file_descriptor = open(filename, O_WRONLY | O_APPEND);
 	ssize_t bytes_written =
 		write(file_descriptor, text_content, strlen(text_content));
-	int file_descriptor = open(filename, O_WRONLY | O_APPEND);
 
 	if (filename == NULL)
 		return (-1);
