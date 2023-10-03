@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * append_text_to_file - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ * append_text_to_file - helafsfaf fa fa ffafafaf fafaf af fafaf
  *
  * @filename : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
  *
