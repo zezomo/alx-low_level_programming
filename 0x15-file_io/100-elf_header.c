@@ -16,7 +16,13 @@ void printAbiVersion(unsigned char *e_ident);
 void printFileType(unsigned int e_type, unsigned char *e_ident);
 void printEntryPoint(unsigned long int e_entry, unsigned char *e_ident);
 void closeElfFile(int elf);
-
+/**
+ * checkElf - helafsfaf fa fa ffafafaf f afar aw afaf af fafaf
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyivy ibveyib
+ *
+ * Return: number of words
+ */
 void checkElf(unsigned char *e_ident)
 {
 	int index;
@@ -33,7 +39,13 @@ void checkElf(unsigned char *e_ident)
 		}
 	}
 }
-
+/**
+ * printMagicNumbers - helafsfaf fa fa ffafafaf f afar aweaf fafaf
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void printMagicNumbers(unsigned char *e_ident)
 {
 	int index;
@@ -50,7 +62,13 @@ void printMagicNumbers(unsigned char *e_ident)
 			printf(" ");
 	}
 }
-
+/**
+ * printClass - helafsfaf fa fa ffafafaf f afaf aef afaf af fafaf
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void printClass(unsigned char *e_ident)
 {
 	printf(" Class: ");
@@ -70,7 +88,13 @@ void printClass(unsigned char *e_ident)
 		printf("<unknown: %x>\n", e_ident[EI_CLASS]);
 	}
 }
-
+/**
+ * printDataEncoding - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void printDataEncoding(unsigned char *e_ident)
 {
 	printf(" Data: ");
@@ -90,7 +114,13 @@ void printDataEncoding(unsigned char *e_ident)
 		printf("<unknown: %x>\n", e_ident[EI_CLASS]);
 	}
 }
-
+/**
+ * printVersion - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void printVersion(unsigned char *e_ident)
 {
 	printf(" Version: %d", e_ident[EI_VERSION]);
@@ -105,7 +135,13 @@ void printVersion(unsigned char *e_ident)
 		break;
 	}
 }
-
+/**
+ * printOsAbi - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void printOsAbi(unsigned char *e_ident)
 {
 	printf(" OS/ABI: ");
@@ -146,12 +182,26 @@ void printOsAbi(unsigned char *e_ident)
 		printf("<unknown: %x>\n", e_ident[EI_OSABI]);
 	}
 }
-
+/**
+ * printAbiVersion - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void printAbiVersion(unsigned char *e_ident)
 {
 	printf(" ABI Version: %d\n", e_ident[EI_ABIVERSION]);
 }
-
+/**
+ * printFileType - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @e_type : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void printFileType(unsigned int e_type, unsigned char *e_ident)
 {
 	if (e_ident[EI_DATA] == ELFDATA2MSB)
@@ -180,7 +230,15 @@ void printFileType(unsigned int e_type, unsigned char *e_ident)
 		printf("<unknown: %x>\n", e_type);
 	}
 }
-
+/**
+ * printEntryPoint - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @e_entry : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * @e_ident : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void printEntryPoint(unsigned long int e_entry, unsigned char *e_ident)
 {
 	printf(" Entry point address: ");
@@ -198,7 +256,13 @@ void printEntryPoint(unsigned long int e_entry, unsigned char *e_ident)
 	else
 		printf("%#lx\n", e_entry);
 }
-
+/**
+ * closeElfFile - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @elf : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void closeElfFile(int elf)
 {
 	if (close(elf) == -1)
@@ -208,7 +272,15 @@ void closeElfFile(int elf)
 		exit(98);
 	}
 }
-
+/**
+ * main - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @argc : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * @argv : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	Elf64_Ehdr *header;
