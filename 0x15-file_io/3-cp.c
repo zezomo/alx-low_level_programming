@@ -4,7 +4,13 @@
 
 char *create_buffer(char *output_file);
 void close_file_descriptor(int fd);
-
+/**
+ * create_buffer - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @output_file : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 char *create_buffer(char *output_file)
 {
 	char *buffer;
@@ -20,7 +26,13 @@ char *create_buffer(char *output_file)
 
 	return (buffer);
 }
-
+/**
+ * close_file_descriptor - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @fd : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * Return: number of words
+ */
 void close_file_descriptor(int fd)
 {
 	int close_result;
@@ -33,7 +45,15 @@ void close_file_descriptor(int fd)
 		exit(100);
 	}
 }
-
+/**
+ * main - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ *
+ * @argc : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
+ *
+ * @argv : dveneiv nciunwiucn cniucnwiuncw vnwcinwi wi cwwnc wcn
+ *
+ * Return: number of words
+ */
 int main(int argc, char *argv[])
 {
 	int source_fd, destination_fd, bytes_read, bytes_written;
