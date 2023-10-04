@@ -27,7 +27,7 @@ char *create_buffer(char *output_file)
 	return (buffer);
 }
 /**
- * close_file_descriptor - helafsfaf fa fa ffafafaf f afar awe faf aef afaf af fafaf
+ * close_file_descriptor - helafsfaf fa fa ffafafaf f aff
  *
  * @fd : vohewivbeivbe ieheiybw cbiywebcw ibeyvbweivy ibveyib
  *
